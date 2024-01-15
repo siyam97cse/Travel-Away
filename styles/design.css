@@ -1,0 +1,54 @@
+
+
+/* Header Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 90px 120px;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+
+}
+nav li a{
+    text-decoration: none;
+}
+.header-title{
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+.header-img{
+    margin-bottom: -10px;
+}
+.ht-part{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.hm-part-1{
+    color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.hm-part-2{
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
