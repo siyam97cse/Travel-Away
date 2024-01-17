@@ -801,7 +801,7 @@ img {
     margin-left: 0; 
 }
 
-.hotel-title, .service-title, .price-title {
+.hotel-title, .service-title,  {
     color: #131318;
     font-family: Mulish;
     font-size: 24px;
@@ -809,7 +809,7 @@ img {
     font-weight: 800;
     line-height: normal;
 }
-
+/* .price-title */
 .hotel-description, .service-description, .price-description {
     color: #5A5A5D;
     font-family: Mulish;
@@ -883,8 +883,10 @@ img {
     text-align: center; 
     margin-bottom: 20px;
 }
-
-.deals-1 .price, .deals-2 .price, .deals-3 .price {
+.price{
+    
+}
+.deals-1 , .deals-2 , .deals-3  {
     color: #FF5400;
     font-size: 16px; 
     font-weight: 800;
@@ -892,7 +894,9 @@ img {
 
 .deals-1 .btn-primary, .deals-2 .btn-primary, .deals-3 .btn-primary {
     margin-left: 0; 
+    margin-top: -700rem;
 }
+
 
 .deals-border img, .deals-border-2 img, .deals-border-3 img {
     position: static; 
@@ -917,6 +921,7 @@ img {
 
 
 /* perfect-Place Section */
+
 .perfect-place {
     display: flex;
     flex-direction: column; 
